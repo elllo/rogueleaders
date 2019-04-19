@@ -9,6 +9,20 @@ body {
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: #FDEEC7;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 0 50px 0;
+}
+
 header {
     padding: 30px 0;
     background-color: transparent;
@@ -43,6 +57,7 @@ header p {
 
 body p {
     font-weight: 500;
+    font-size: 16px;
 }
 
 .jumbotron {
@@ -70,6 +85,17 @@ body p {
     color: #fff;
 }
 
+#ppp {
+    min-height: 500px;
+}
+
+.p-tile {
+    margin: 10px;
+    padding: 20px 20px;
+    background: rgba(0, 0, 0, 65%);
+    min-height: 300px;
+}
+
 section .row img {
     margin: 0 0 30px;
     width: 100%;
@@ -79,6 +105,11 @@ section .row img {
 
 .col-md-6 {
     margin: 0 0 30px;
+}
+
+.btn {
+    margin: 0 5px;
+    min-width: 150px;
 }
 
 .btn.btn-primary {
@@ -95,14 +126,18 @@ section .row img {
 }
 
 .btn-secondary {
-    background-color: #E8DFE0;
-    color: #ffffff;
-    margin: 0 0 30px;
+    border-radius: 25px;
+    border: 2px #fff solid;
+    color: #fff;
+    text-shadow: none;
+    background-color: transparent;
 }
 
 footer {
-    font-size: 12px;
-    padding: 20px 0;
+    font-size: 14px;
+    padding: 70px 50px;
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 65%); 
 }
 
 footer .col-sm-8 {
@@ -111,10 +146,10 @@ footer .col-sm-8 {
 }
 
 footer ul {
-list-style: none;
+    list-style: none;
 }
 
 footer li img {
-width: 32px;
-height: 32px;
+    width: 20px;
+    height: 20px;
 }
