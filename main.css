@@ -63,6 +63,7 @@ header p {
 body p {
     font-weight: 500;
     font-size: 16px;
+    margin: 0 0 20px 0;
 }
 
 .jumbotron {
@@ -74,6 +75,14 @@ body p {
     background-color: transparent;
     height: 600px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron p {
+    margin: 0 0 50px 0;
+}
+
+.construction-note {
+    color: darkred;
 }
 
 .jumbotron h2 {
